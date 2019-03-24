@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gyk_301</string>
+    <string name="fotograf_video">Fotograf Videharitao</string>
+    <string name="ses_kayit">Ses Kayıt</string>
+    <string name="harita">haritaya git</string>
+    <string name="web_sayfasina_git">web sayfasına git</string>
+    <string name="sms_gonder">sms gönder</string>
+    <string name="arama_yap">arama yap</string>
+    <string name="fotograf_cek">fotograf cek</string>
+    <string name="video_cek">video cek</string>
+    <string name="internete_gir">internete gir</string>
+
+
+</resources>

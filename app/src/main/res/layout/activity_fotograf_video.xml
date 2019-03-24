@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FotografVideoActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            />
+
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_weight="1"
+                android:onClick="FotografCek"
+                android:textColor="@color/beyaz"
+                android:textSize="25dp"
+
+                android:background="@color/colorAccent"
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/buton_yuksekligi"
+                android:text="@string/fotograf_cek" />
+            <Button
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_weight="1"
+                android:onClick="videoCek"
+                android:textColor="@color/beyaz"
+                android:textSize="25dp"
+                android:background="@color/colorAccent"
+                android:id="@+id/videoCek"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/buton_yuksekligi"
+                android:text="@string/video_cek" />
+        </LinearLayout>
+
+</RelativeLayout>
